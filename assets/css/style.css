@@ -45,31 +45,50 @@ h2 {
 
 .sections {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
 }
 
 #about-me {
-    width: 40%;
+    width: 560px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 h3 {
-    width: 10%;
+    width: 140px;
     border-right: 3px var(--blue) solid;
+    font-size: 20px;
+    text-align: center;
 }
 
-.sections img {
-    width: 50%;
+.elbert {
+    width: 700px;
     border: 3px var(--blue) solid;
     border-radius: 10px;
 }
 
 #work {
-    width: 10%;
+    width: 140px;
 }
 
-.horiseon {
-    width: 60%;
+.horiseon a img{
+    width: 700px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.cheatsheet a img {
+    width: 500px;
+    padding: 10px;
+}
+
+.contact {
     margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
