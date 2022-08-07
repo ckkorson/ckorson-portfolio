@@ -40,6 +40,7 @@ article {
 h2 {
     font-size: 20px;
     position: relative;
+    text-align: center;
 }
 
 .sections {
@@ -47,7 +48,7 @@ h2 {
     padding: 10px;
 }
 
-.about-me {
+#about-me {
     width: 40%;
     padding-left: 10px;
     padding-right: 10px;
@@ -62,4 +63,13 @@ h3 {
     width: 50%;
     border: 3px var(--blue) solid;
     border-radius: 10px;
+}
+
+#work {
+    width: 10%;
+}
+
+.horiseon {
+    width: 60%;
+    margin-left: 20px;
 }
