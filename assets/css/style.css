@@ -1,40 +1,43 @@
+/* create variable to hold background an border color */
 :root {
-    --blue: rgb(98, 98, 129);
+    --blue: rgb(29, 129, 112);
 }
-
+/* global font family */
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* header formatting */
 header {
     background-color: var(--blue);
-    color: white;
+    color: black;
     padding: 20px;
     display: flex;
+    /* position: fixed;
+    width: 100%; */
 }
-
+/* formatting for my name */
 header h1 {
     margin-right: 20px;
 }
-
+/* position nav bar */
 nav {
     position: absolute;
     right: 0px;
     margin-top: 10px;
 }
-
+/* put nav links inline and space them */
 .nav-links li {
     display: inline;
     margin-right: 20px;
     text-decoration: none;
 }
-
+/* got rid of default link formatting */
 .nav-links li a {
     text-decoration: none;
     color: black;
     font-weight: 700;
 }
-
+/* added background image to banner */
 article {
     background-image: url(./../images/mountain-view.jpeg);
     background-size: 100%;
@@ -42,25 +45,32 @@ article {
     height: 300px;
     padding: 10px;
 }
-
+/* formatted text banner */
 h2 {
     font-size: 20px;
     position: relative;
     text-align: center;
 }
-
+/* default formmating for main sections */
 .sections {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
 }
-
+/* formats section headers */
+h3 {
+    width: 140px;
+    border-right: 3px var(--blue) solid;
+    font-size: 20px;
+    text-align: center;
+}
+/* formats bio */
 #about-me {
     width: 560px;
     padding-left: 10px;
     padding-right: 10px;
 }
-
+/* formats dog pic */
 .dogs {
     max-width: 560px;
     width: auto;
@@ -71,14 +81,7 @@ h2 {
     margin-right: 10px;
     margin-top: 10px;
 }
-
-h3 {
-    width: 140px;
-    border-right: 3px var(--blue) solid;
-    font-size: 20px;
-    text-align: center;
-}
-
+/* formats pic of me */
 .elbert {
     max-width: 680px;
     max-height: 630px;
@@ -87,41 +90,36 @@ h3 {
     border: 3px var(--blue) solid;
     border-radius: 10px;
 }
-
-#work {
-    width: 140px;
-}
-
+/* formats hariseon app */
 .horiseon a img{
     width: 700px;
     border: 3px var(--blue) solid;
     border-radius: 10px;
     margin: 5px;
 }
-
+/* formats cheatsheet app */
 .cheatsheet a img {
     width: 500px;
     border: 3px var(--blue) solid;
     border-radius: 10px;
     margin: 5px;
 }
-
+/* sets left margin for contact list */
 #contact-me {
-    margin-left: 20px;
+    margin-left: 50px;
 }
-
+/* sets contacts inline */
 #contact-me li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 50px;
 }
-
+/* formats footer */
 footer {
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
     padding: 20px;
 }
-
+/* changes site to column when width drops below 1430px */
 @media screen and (max-width: 1430px){
     .sections {
         flex-direction: column;
