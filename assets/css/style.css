@@ -122,3 +122,14 @@ footer {
     padding: 20px;
 }
 
+@media screen and (max-width: 1430px){
+    .sections {
+        flex-direction: column;
+    }
+
+    .sections h3 {
+        border-right: none;
+        border-bottom: 3px var(--blue) solid;
+        margin-bottom: 10px;
+    }
+}
