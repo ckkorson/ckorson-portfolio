@@ -23,10 +23,16 @@ nav {
     margin-top: 10px;
 }
 
-li {
+.nav-links li {
     display: inline;
     margin-right: 20px;
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
 }
 
 article {
@@ -55,6 +61,17 @@ h2 {
     padding-right: 10px;
 }
 
+.dogs {
+    max-width: 560px;
+    width: auto;
+    height: auto;
+    border: 3px var(--blue) solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
 h3 {
     width: 140px;
     border-right: 3px var(--blue) solid;
@@ -63,7 +80,10 @@ h3 {
 }
 
 .elbert {
-    width: 700px;
+    max-width: 680px;
+    max-height: 630px;
+    width: auto;
+    height: auto;
     border: 3px var(--blue) solid;
     border-radius: 10px;
 }
@@ -74,21 +94,31 @@ h3 {
 
 .horiseon a img{
     width: 700px;
-    padding: 10px;
-    margin-left: 10px;
+    border: 3px var(--blue) solid;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .cheatsheet a img {
     width: 500px;
-    padding: 10px;
+    border: 3px var(--blue) solid;
+    border-radius: 10px;
+    margin: 5px;
 }
 
-.contact {
+#contact-me {
     margin-left: 20px;
+}
+
+#contact-me li {
+    display: inline;
+    margin-right: 20px;
 }
 
 footer {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    padding: 20px;
 }
+
