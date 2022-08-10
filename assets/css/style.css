@@ -30,12 +30,20 @@ nav {
     display: inline;
     margin-right: 20px;
     text-decoration: none;
+    margin: 5px;
 }
 /* got rid of default link formatting */
 .nav-links li a {
     text-decoration: none;
     color: black;
     font-weight: 700;
+    padding: 10px;
+}
+/* adds styling when hovering over nav links */
+.nav-links li:hover {
+    background-color: white;
+    border: 3px black solid;
+    box-shadow: 3px 3px gray;
 }
 /* added background image to banner */
 article {
